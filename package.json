@@ -1,0 +1,14 @@
+{
+	"name":"cors-cookie-test",
+	"version":"0.0.1",
+	"dependencies":{
+		"express":"",
+		"morgan":"",
+		"cookie-parser":"",
+		"body-parser":""
+	},
+	"engines":{
+		"node":"x",
+		"npm":"x"
+	}
+}
