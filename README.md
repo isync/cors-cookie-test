@@ -28,7 +28,9 @@ tiny bit broken, and I haven't tracked down which. I used this test-bench to con
 another project where I was able to sort everything out, and then left it as is.
 So, dear reader, happy forking.
 
-## Elsewhere
+## Else
+
+https://github.com/monsur/test-cors.org
 
 http://www.html5rocks.com/en/tutorials/cors/
 
