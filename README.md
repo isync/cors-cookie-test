@@ -6,18 +6,18 @@ each other.
 
 ## Install & Usage
 
-git clone https://github.com/isync/cors-cookie-test.git
-cd cors-cookie-test
-plackup app.pl --port=3000
+- git clone https://github.com/isync/cors-cookie-test.git
+- cd cors-cookie-test
+- plackup app.pl --port=3000
 
-(It's important to run this here with plackup, as HTTP::Server::Simple won\'t
+(It's important to run this here with plackup, as HTTP::Server::Simple won't
 "grok" the OPTIONS HTTP method.)
 
 Then open http://0.0.0.0:3000/cors/test in your browser
 
 Open Firebug or Web Developer Console to see the important stuff.
 
-Also: make sure you have third-party cookies enabled (!) when you want to
+Also: make sure you allow third-party cookies (!) when you want to
 test setting Cookies.
 
 ## Caveat
@@ -31,3 +31,7 @@ So, dear reader, happy forking.
 ## Elsewhere
 
 http://www.html5rocks.com/en/tutorials/cors/
+
+## License
+
+GPL v3
